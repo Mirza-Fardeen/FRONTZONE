@@ -1,0 +1,52 @@
+.main-box{
+	position: relative;
+
+	background-color: rgb(245, 245, 245);
+	max-width: 32vb;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.top-icon{
+	position:absolute;
+	 left:200px;
+	  margin-top:5%
+}
+.down-right-content{
+	top: 10dvb;
+	position:absolute;
+	left: 190px;
+	display: block;
+
+}
+
+.main-box > div{
+	display: flex;
+	flex-direction: row;
+}
+.main-box >div > h3{
+	font-style:oblique;
+	font-weight:normal
+}
+/* @media only screen and (max-width: 1800px){
+	.main-box{
+		max-width: 40vb;
+	}
+} */
+@media only screen and (max-width: 700px){
+	.main-box{
+		max-width: 15vb;
+		height: 20vh ;
+	}
+	.top-icon{
+		left: 160px;
+	}
+	.down-right-content{
+		top: 150px;
+		left: 100px;
+	}
+}
+
+.main-box >div > h1{
+	font-weight:bolder
+}

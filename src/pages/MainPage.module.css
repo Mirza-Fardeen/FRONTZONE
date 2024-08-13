@@ -1,0 +1,22 @@
+.screens{
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+.screen-sidebar{
+
+	display: flex;
+	flex-wrap: nowrap;
+    padding: 10%;
+	background-color: rgb(255, 255, 255);
+
+}
+.screen-main{
+
+	background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 1024px) {
+	.screens{
+		grid-template-columns: 30% 70%;
+	}
+}

@@ -1,0 +1,13 @@
+.siderbarbtn > ListItemButton{
+	background-color: bisque;
+
+	color:white;
+}
+
+.siderbarbtn > ListItemText{
+	background-color: black;;
+}
+
+.icon-color{
+	color: red;
+}

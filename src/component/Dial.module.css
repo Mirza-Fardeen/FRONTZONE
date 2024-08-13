@@ -1,0 +1,40 @@
+.main{
+	display: flex;
+	position: relative;
+	background-color: green;
+
+	border-radius:  50%;
+
+
+	height:40dvh;
+	width: 40dvb;
+
+
+}
+
+.needle{
+
+	position: absolute;
+	display: flex;
+	top: 40%;
+	/* height: 5vh; */
+	width: 50%;
+
+	background-color: rgb(148, 70, 70);
+	color: white;
+	padding: 0.2rem;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+
+
+
+}
+
+@keyframes rot {
+
+	from {transform: rotate(0deg);}
+	to {
+		transform: rotate(180deg);
+		transform-origin: right 30px ;
+	}
+}
